@@ -1,0 +1,41 @@
+.titulo{
+    text-align: center;
+    font-size: 55px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.grande{
+    font-size: 55px;
+    margin: 0;
+}
+
+.chico{
+    margin: 0;
+    font-size: 35px;
+}
+
+.mini{
+    margin: 0;
+    font-size: 25px;
+}
+
+.botones{
+    text-align: center
+}
+
+.numero{
+    text-align: center;
+    font-size: 55px;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.vector{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    word-wrap: break-word;
+}
