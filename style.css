@@ -1,22 +1,37 @@
 .titulo{
     text-align: center;
-    font-size: 55px;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-.grande{
-    font-size: 55px;
+.nav{
+    font-size: 35px;
     margin: 0;
+    color: white;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.grande{
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 45px;
 }
 
 .chico{
     margin: 0;
-    font-size: 35px;
+    font-size: 25px;
 }
 
-.mini{
+.mensaje{
     margin: 0;
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 25px;
+    
+
+
 }
 
 .botones{
@@ -29,6 +44,10 @@
     font-family: 'Source Sans Pro', sans-serif;
     margin-top: 50px;
     margin-bottom: 50px;
+}
+
+.inputs{
+    text-align: center
 }
 
 .vector{

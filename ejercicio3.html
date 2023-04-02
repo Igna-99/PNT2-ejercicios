@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Ejercicio 3</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark" data-bs-theme="dark">
+        <div class="container-fluid">
+
+            <H1 class="titulo nav">Ejercicio 3</H1>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="ejercicio2.html">anterior</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="ejercicio4.html">siguiente</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="row">
+        <div class="col-12">
+            <H2 class="titulo grande">Fulbo</H2>
+        </div>
+
+        <div class="col-12">
+            <H3 class="titulo chico">Condiciones:</H3>
+        </div>
+
+        <div class="col-12 inputs">
+
+            <label for="cbox1">Hay Pelota </label>
+            <input type="checkbox" id="cbox1"> <br>
+
+            <label for="cantA">cantidad de jugadores de equipo A </label>
+            <input type="number" id="cantA" min="0" max="11"> <br>
+
+            <label for="cantB">cantidad de jugadores de equipo A </label>
+            <input type="number" id="cantB" min="0" max="11"> <br>
+
+            <label for="cbox2">jugadores mayores de 18 </label>
+            <input type="checkbox" id="cbox2"> <br>
+
+            <label for="cbox3">las condiciones climaticas son las adecuadas </label>
+            <input type="checkbox" id="cbox3"> <br>
+
+            <button id="boton" class="btn btn-success mt-3">Comprobar</button>
+
+        </div>
+
+        <div class="col-12 vector">
+
+            <p id="resultado" class="mensaje"></p>
+
+        </div>
+
+
+
+    </div>
+
+    <script src="ej3.js"></script>
+</body>
+
+</html>

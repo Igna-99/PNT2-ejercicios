@@ -28,7 +28,7 @@ function mostrarVector() {
             resultado = resultado + `,${vector[index]} `;
             
         }
-    }
+    } 
 
 
 
