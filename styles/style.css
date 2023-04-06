@@ -1,0 +1,121 @@
+.titulo {
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.nav {
+  font-size: 35px;
+  margin: 0;
+  color: white;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.grande {
+  margin: 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 45px;
+}
+
+.chico {
+  margin: 0;
+  font-size: 25px;
+}
+
+.mensaje {
+  margin: 0;
+  margin-top: 30px;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 25px;
+
+
+
+}
+
+.botones {
+  text-align: center
+}
+
+.numero {
+  text-align: center;
+  font-size: 55px;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.inputs {
+  text-align: center
+}
+
+.vector {
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  word-wrap: break-word;
+}
+
+.mybutton {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.mybutton:disabled {
+  padding: 10px;
+  background-color: #888888;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+table {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 40px;
+  border-collapse: collapse;
+  box-shadow: 0px 0px 5px #888888;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 2px solid #ddd;
+}
+
+
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+
+
+form {
+  text-align: center;
+  margin-top: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px #888888;
+  margin-left: 10px;
+}
