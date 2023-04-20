@@ -61,7 +61,7 @@
 
 .mybutton {
   padding: 10px;
-  background-color: #4CAF50;
+  background-color: #188D52;
   color: white;
   border: none;
   border-radius: 5px;
@@ -96,8 +96,14 @@ td {
 
 
 th {
-  background-color: #4CAF50;
+  height: 55px;
+  background-color: #188D52;
   color: white;
+}
+
+tr:nth-child(even)
+{
+  background-color: #ECECEC;
 }
 
 
@@ -118,4 +124,22 @@ input[type="text"] {
   border-radius: 5px;
   box-shadow: 0px 0px 5px #888888;
   margin-left: 10px;
+}
+
+
+.positivo{
+  color:green
+}
+
+.negativo{
+  color:red
+}
+
+.cards{
+  display: flex;
+  justify-content: center;
+}
+
+.card{
+  margin: .5em;
 }

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+</head>
+
+<body>
+
+    <div id="app">
+        {{ message }}
+
+        <p v-bind:title="ayuda">hola</p>
+    </div>
+
+    
+
+    
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
+    <script>
+        const app = Vue.createApp({
+            data() {
+                return {
+                    ayuda: "esto es una prueba",
+                    message: "asdasdasda",
+                    personajesRAM: {}
+                }
+            },
+            created: async function () {
+            }
+        });
+
+        var capo = app.mount('#app');
+
+    </script>
+
+
+</body>
+
+
+</html>
