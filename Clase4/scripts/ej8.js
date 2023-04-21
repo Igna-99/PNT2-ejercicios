@@ -36,7 +36,7 @@ app.component('personaje', {
       }
   },
   template: `<div class="card" style="width: 18rem;">
-  <img class="card-img-top" v-bind:src="image" @click="sumarClick"> 
+  <img class="card-img-top clickeable" v-bind:src="image" @click="sumarClick"> 
   <div class="card-body">
     <h5 class="card-title">{{this.name}}</h5>
     <p class="card-text">Status: {{this.status}}</p>
