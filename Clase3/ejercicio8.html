@@ -9,6 +9,8 @@
 
   <link rel='stylesheet' type='text/css' media='screen' href='../styles/style.css'>
 
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.7.14"></script>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap" rel="stylesheet">
@@ -34,8 +36,12 @@
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="../Clase3/ejercicio7.html">anterior</a>
+            <a class="nav-link active" aria-current="page" href="ejercicio7.html">anterior</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../Clase4/ejercicio9.html">siguente</a>
+          </li>
+
 
         </ul>
       </div>
@@ -43,22 +49,43 @@
   </nav>
 
 
-
-
   <div id="app">
+    <div >
+      <H2 class="titulo grande"> Guerra </H2>
+      <H2 class="titulo chico"> Ronda {{this.ronda}}</H2>
+    
+    </div>
+    
 
-    <H2 class="titulo grande">Rick and Morty</H2>
-    <H2 class="titulo">Clicks totales {{clickTotales}} </H2>
+    <div class="container text-center">
+      <div class="row align-items-start">
+        <div class="col titulo">
+          <p class="chico"> Jugador 1 </p>
+          {{jugadorA.name}} <br>
+          Stamina: {{jugadorA.stamina}}
+        </div>
+        <div class="col titulo">
+          <p class="chico"> Jugador 2 </p>
+          {{jugadorB.name}} <br>
+          Stamina: {{jugadorB.stamina}}
+        </div>
+      </div>
+    </div>
 
-    <div class="cards">
-        <personaje class v-for="pj in personajesRAM" 
-        v-bind:name="pj.name" 
-        v-bind:image="pj.image"
-        v-bind:status="pj.status"
-        v-bind:species="pj.species"
-        @click-foto="click"
-        ></personaje>
-  
+    <div class="botones">
+
+      <button type="button" class="boton btn btn-danger" v-on:click="atacar()" >Atacar</button>
+      <button type="button" class="boton btn btn-success" v-on:click="curar()" >Curar</button>
+      <button type="button" class="boton btn btn-secondary" v-on:click="swap()" :disabled="!swapHabilitado" >SWAP</button>
+
+    </div>
+
+    <div >
+      <H2 class="mensaje"> Turno de {{jugando.name}} </H2>
+    </div>
+
+    
+
   </div>
 
 

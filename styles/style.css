@@ -38,6 +38,11 @@
   text-align: center
 }
 
+.boton{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
 .numero {
   text-align: center;
   font-size: 55px;
