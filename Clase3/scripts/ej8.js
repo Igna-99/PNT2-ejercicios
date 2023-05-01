@@ -61,11 +61,11 @@ const app = Vue.createApp({
 
         swap(){ 
             if(this.jugando.swap){
-                this.jugando.swap = false;
+                this.jugando.setSwap(false);
 
-                let aux = this.jugando.stamina;
-                this.jugando.stamina = this.noJugando.stamina;
-                this.noJugando.stamina = aux;
+                let aux = this.jugando.getStamina();
+                this.jugando.setStamina(this.noJugando.getStamina());
+                this.noJugando.setStamina(aux);
                 
             }
         },
